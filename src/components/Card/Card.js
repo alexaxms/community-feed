@@ -28,14 +28,14 @@ const Count = styled.div`
   flex-basis: 80%;
 `;
 
-const Card = ({ data }) => (
+const Card = ({data}) => (
   <CardWrapper>
     <Title>{data.title}</Title>
     <Meta>
       <Count>
         {`Views: ${data.view_count} | Answers: ${data.answer_count}`}
       </Count>
-      <Owner data={data.owner} />
+      <Owner data={data.owner}/>
     </Meta>
   </CardWrapper>
 );

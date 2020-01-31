@@ -19,9 +19,9 @@ const Name = styled.h3`
   margin-left: 5%;
 `;
 
-const Owner = ({ data }) => (
+const Owner = ({data}) => (
   <OwnerWrapper>
-    <Avatar src={data.profile_image} />
+    <Avatar src={data.profile_image}/>
     <Name>{data.display_name}</Name>
   </OwnerWrapper>
 );
